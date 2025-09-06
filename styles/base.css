@@ -8,3 +8,71 @@
     --body-font: "Intel One Mono", sans-serif;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    flex: 1 1 100%;
+}
+
+
+
+header {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 1em;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+.navigation a:hover {
+    color: var(--accent2-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color)
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 10px;
+}
