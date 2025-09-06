@@ -8,17 +8,12 @@
     --body-font: "Intel One Mono", sans-serif;
 }
 
-nav ul {
+nav ul li {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-}
-
-nav li {
     flex: 1 1 100%;
 }
-
-
 
 header {
     background-color: var(--primary-color);
@@ -31,9 +26,11 @@ header {
     max-width: 1000px;
 }
 
-header span {
+header .course-title {
     display: block;
+    align-items: center;
     color: var(--accent3-color);
+    padding: 50px;
 }
 
 nav {
@@ -47,8 +44,8 @@ nav a {
     font-family: var(--heading-font);
 }
 
-.navigation a:hover {
-    color: var(--accent2-color);
+nav a:hover {
+    color: var(--accent3-color);
     font-weight: 700;
     text-decoration: underline;
 }
