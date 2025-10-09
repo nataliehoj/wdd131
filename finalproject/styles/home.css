@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #a63a50; /*Amaranth Purple*/
+    --secondary-color: #f0e7d8; /*Antique White*/
+    --accent1-color: #ab9b96; /*Cinereous*/
+    --accent2-color: #a1674a; /*Brown Sugar*/
+    --accent3-color: #ba6e6e; /*Old Rose*/
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Intel One Mono", sans-serif;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+header .course-title {
+    display: block;
+    align-items: center;
+    color: var(--accent3-color);
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 1em;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+nav a:hover {
+    color: var(--accent3-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color)
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 10px;
+}
