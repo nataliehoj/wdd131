@@ -59,14 +59,51 @@ nav a:hover {
 
 .image1 {
     padding: 10px;
-
 }
+
+.plant {
+    padding: 10px;
+}
+
 
 h2 {
     font-family: var(--title-font);
-    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
 }
 
 p {
     font-family: var(--body-font);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    justify-items: center;
+    grid-column: 1/-1;
+    flex-direction: row;
+    max-width: 1000px;
+}
+
+figure {
+    font-family: var(--body-font);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    justify-items: center;
+    grid-column: 1/-1;
+    flex-direction: row;
+    max-width: 1000px;
+}
+
+.gallery {
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
