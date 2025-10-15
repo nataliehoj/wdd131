@@ -1,17 +1,17 @@
 :root {
-    --primary-color: #a63a50; /*Amaranth Purple*/
-    --secondary-color: #f0e7d8; /*Antique White*/
-    --accent1-color: #ab9b96; /*Cinereous*/
-    --accent2-color: #a1674a; /*Brown Sugar*/
-    --accent3-color: #ba6e6e; /*Old Rose*/
-    --heading-font: "Playfair Display", serif;
-    --body-font: "Intel One Mono", sans-serif;
+    --primary-color: #9cc5a1; /*Cambridge Blue*/
+    --secondary-color: #216869; /*Carribean Current*/
+    --accent1-color: #1F2421; /*Eerie Black*/
+    --accent2-color: #DCE1DE; /*Platinum*/
+    --heading-font: "Chewy", serif;
+    --title-font: "Comfortaa", "sans-serif";
+    --body-font: "Source Code Pro", sans-serif;
 }
 
 nav {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: right;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -49,30 +49,23 @@ nav a:hover {
 }
 
 * {
-    margin: 0;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-right: 10px;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--body-font);
-    color: var(--primary-color)
-}
-
-header, main, footer {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
-}
-
-footer {
-    background-color: var(--secondary-color);
-    color: var(--accent1-color);
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+.image1 {
     padding: 10px;
+
+}
+
+h2 {
+    font-family: var(--title-font);
+    justify-content: center;
+}
+
+p {
+    font-family: var(--body-font);
 }
