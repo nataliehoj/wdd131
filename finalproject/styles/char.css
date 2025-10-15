@@ -24,6 +24,7 @@ nav li {
   
 nav a {
     text-decoration: none;
+    font-size: large;
     color: var(--accent1-color);
     font-family: var(--heading-font);
   }
