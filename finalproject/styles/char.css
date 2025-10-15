@@ -111,3 +111,11 @@ figcaption {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 10px;
+}
