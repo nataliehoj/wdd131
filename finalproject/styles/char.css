@@ -59,10 +59,14 @@ nav a:hover {
 
 .image1 {
     padding: 10px;
-}
+    display: block;
+    margin: 0 auto;
+    }
 
 .plant {
     padding: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -106,10 +110,13 @@ figcaption {
 
 .gallery {
     padding: 20px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 footer {
